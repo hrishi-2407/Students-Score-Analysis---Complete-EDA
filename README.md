@@ -33,31 +33,31 @@ To perform a comprehensive exploratory data analysis (EDA) on student performanc
 - Pie chart of Ethnic Groups distribution
 - Bar plots of category-wise counts
 
-### 📉 5️⃣ Bivariate Analysis
+### 📉 4️⃣ Bivariate Analysis
 - Boxplots of each subject score against categorical variables:
 - Gender, EthnicGroup, ParentMaritalStatus
 - Understand how different groups perform in each subject.
 
-### 🎻 6️⃣ Multivariate Analysis
+### 🎻 5️⃣ Multivariate Analysis
 - Violin plots to analyze subject score distributions across combinations:
 - Gender vs ParentEduc
 - Gender vs EthnicGroup
 - Gender vs TestPrep
 - Gender vs WklyStudyHours
 
-### 📊 7️⃣ Aggregated Score Analysis
+### 📊 6️⃣ Aggregated Score Analysis
 - Create a new feature: OverallScore = mean of Math, Reading, and Writing scores
 - Bin OverallScore into intervals of 10 marks using pd.cut() for better visualization.
 
-### 📝 8️⃣ Grade Categorization
+### 📝 7️⃣ Grade Categorization
 - Map OverallScore bins into Grades (like A, B, C, D)
 - Pie chart showing the percentage distribution of grades
 
-### 📈 9️⃣ Comparative Aggregate Analysis
+### 📈 8️⃣ Comparative Aggregate Analysis
 - Bar plots for average OverallScore against: ParentEduc, WklyStudyHours, NrSiblings, IsFirstChild, EthnicGroup, PracticeSport
 - Box plot for OverallScore by ParentEduc
 
-### 📊 🔟 Correlation Analysis
+### 📊 9️⃣ Correlation Analysis
 - Encode all categorical features:
 - Label Encoding for binary categories (Gender, PracticeSport, TestPrep, IsFirstChild)
 - Ordinal Encoding for WklyStudyHours
